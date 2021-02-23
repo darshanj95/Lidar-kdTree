@@ -8,7 +8,7 @@ int main(int arg, char ** argv){
     pcl::visualization::PCLVisualizer viewer ("Viewer");
 
     //Load .pcd file
-    if(pcl::io::loadPCDFile<pcl::PointXYZ> ("../data/data0.pcd", *cloud) == -1) {
+    if(pcl::io::loadPCDFile<pcl::PointXYZ> ("../data/data1.pcd", *cloud) == -1) {
         PCL_ERROR("Could not load file \n");
         return -1;
     }
