@@ -16,4 +16,3 @@ $ cmake ..
 $ make 
 $ ./pcd_read
 ```
-# Lidar-kdTree
