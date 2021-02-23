@@ -13,7 +13,7 @@ int main(int arg, char ** argv){
     int maxIter = 150;
     float distanceThreshold = 0.2;
 
-    if(pcl::io::loadPCDFile<pcl::PointXYZ> ("data0.pcd", *cloud) == -1) {
+    if(pcl::io::loadPCDFile<pcl::PointXYZ> ("../data/data0.pcd", *cloud) == -1) {
         PCL_ERROR("Could not load file \n");
         return -1;
     }
